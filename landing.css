@@ -120,7 +120,7 @@
     height: fit-content;
     color: whitesmoke;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
-    font-size: xx-large;
+    font-size: 125%;
     border-radius: 10px; 
 }
 .menuA
@@ -134,7 +134,7 @@
     height: fit-content;
     color: whitesmoke;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
-    font-size: x-large;
+    font-size: 125%;
     border-radius: 10px; 
 }
 .menuB
@@ -147,7 +147,7 @@
     height: fit-content;
     color: whitesmoke;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
-    font-size: x-large;
+    font-size: 125%;
     border-radius: 10px; 
 }
 .menuC
@@ -160,7 +160,7 @@
     height: fit-content;
     color: whitesmoke;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
-    font-size: x-large;
+    font-size: 125%;
     border-radius: 10px; 
 }
 .menuD
@@ -173,7 +173,7 @@
     height: fit-content;
     color: whitesmoke;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
-    font-size: x-large;
+    font-size: 125%;
     border-radius: 10px; 
 }
 
@@ -195,7 +195,7 @@
     color: rgb(255, 255, 255);
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
     text-shadow: black 0px 5px 5px;
-    font-size: x-large;
+    font-size: 100%;
     }
     
     
@@ -288,7 +288,7 @@
         margin-left: 0;
         margin-right: 0;
 
-        height: 33%;
+        height: fit-content;
         width: 80%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -305,7 +305,7 @@
         margin-left: 0;
         margin-right: 0;
 
-        height: 33%;
+        height: fit-content;
         width: 80%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -321,7 +321,7 @@
         margin-top: 75%;
         margin-left: 0;
         margin-right: 0;
-        height: 33%;
+        height: fit-content;
         width: 80%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
