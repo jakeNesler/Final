@@ -337,6 +337,8 @@
     width: 50%;
     height: 25%;
     background-color: white;
+    min-height: 50%;
+    min-width: 25%;
 }
 
 
