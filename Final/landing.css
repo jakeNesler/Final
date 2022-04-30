@@ -1,0 +1,407 @@
+
+.body
+{
+    background-color: black;
+    width: 100%;
+     
+     
+}
+.title
+{   
+    
+     
+    margin-top: 1%;
+    background-color: whitesmoke;
+    color: white;
+    width: 70%;
+    height: 5%;
+    padding-bottom: 1%;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: 32pt;
+    padding-bottom: 1%;
+    border-radius: 10px;
+    margin: auto;
+}
+.GridLayoutBox 
+{    
+    margin-top: -4%;
+    padding-top: 1%;
+    display: grid;
+    margin:auto;
+    
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 33% ;
+}
+.homeBtn
+{   
+    
+    margin-left: 3%; 
+    background-color: black;
+    color: whitesmoke;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: xx-large;
+    border-radius: 10px; 
+    width: fit-content; 
+    background-repeat: no-repeat;
+    
+    max-width: 100%;
+    max-height: 100%;
+}
+.location
+{
+    margin:auto; 
+    background-color: transparent;
+    border-color: transparent;
+    width: fit-content;
+    color: black;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: xx-large;
+    border-radius: 10px; 
+     
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.translucentBtn
+{
+    margin: auto;  
+    background-color: transparent;
+    border-color: transparent;
+    width: fit-content;
+    color: black;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: xx-large;
+    border-radius: 10px; 
+     
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.landingimage
+{
+    
+    background-image: url("Graphic/BeadDrip.jpg");
+    width:4032px;
+    height:2032px;
+    image-rendering: optimizeQuality;
+    background-attachment: scroll;
+    width: 70%;
+    max-height:100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 0;
+    z-index: -1;
+}
+
+.container
+{   
+    padding-top: 10%;
+    text-align: center;
+
+    margin-top: 10%;
+    margin: auto;
+    width: 40%;
+    height: 20%;
+     
+}
+
+.j
+{   
+    
+    text-align: center;
+    background-color: black;
+    opacity: 50%;
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: fit-content ;
+    height: fit-content;
+    color: whitesmoke;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: xx-large;
+    border-radius: 10px; 
+}
+.menuA
+{
+    margin-top: 10%;
+    background-color: black;
+    opacity: 50%;
+    width: 40%;
+    margin: auto;
+    margin-top: 3%;
+    height: fit-content;
+    color: whitesmoke;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: x-large;
+    border-radius: 10px; 
+}
+.menuB
+{
+    margin-top: 5%;
+    background-color: black;
+    opacity: 50%;
+    width: 40%;
+    margin: auto;
+    height: fit-content;
+    color: whitesmoke;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: x-large;
+    border-radius: 10px; 
+}
+.menuC
+{
+    margin-top: 3%;
+    background-color: black;
+    opacity: 50%;
+    width: 40%;
+    margin: auto;
+    height: fit-content;
+    color: whitesmoke;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: x-large;
+    border-radius: 10px; 
+}
+.menuD
+{
+    margin-top: 3%;
+    background-color: black;
+    opacity: 50%;
+    width: 40%;
+    margin: auto;
+    height: fit-content;
+    color: whitesmoke;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: x-large;
+    border-radius: 10px; 
+}
+
+.line
+{
+    position:absolute;
+    margin-top: 10%;
+    background-color: whitesmoke;
+    color: white;
+    width: 75%;
+    height: 1px;
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box {
+    text-align: center;
+    border: 1px solid gray;
+    color: rgb(255, 255, 255);
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    text-shadow: black 0px 5px 5px;
+    font-size: x-large;
+    }
+    
+    
+    
+    .GridLayoutContainer 
+    {
+    padding-top: 5%;
+    display: grid;
+    grid-gap: 2%;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 350px 350px 350px;
+    }
+    .a {
+    margin-left: 20%;
+    background-image: url("Graphic/Blurple.jpg");
+    max-height:50%;
+    max-width: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+    .b
+    {
+        margin-left: 20%;
+        background-image: url("Graphic/Wheels.jpg");
+        max-height:50%;
+        max-width: 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .c
+    {
+        margin-left: 20%;
+        background-image: url("Graphic/Restoredshine.jpg");
+        max-height:50%;
+        max-width: 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    .ao
+    {   
+        margin-top: -10%;
+        margin-left: -15%;
+        border-radius: 20px;
+        border-width: 3px;
+        border-color: white;
+        background-color: transparent;
+        height: 250%;
+        width: 125%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 1;
+    }
+    .bo
+    {
+        margin-top: -10%;
+        margin-left: -15%;
+        border-radius: 20px;
+        border-width: 3px;
+        border-color: white;
+        background-color: transparent;
+        height: 250%;
+        width: 125%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 1;
+        
+    }
+    .co
+    {
+        margin-top: -10%;
+        margin-left: -15%;
+        border-radius: 20px;
+        border-width: 3px;
+        border-color: white;
+        background-color: transparent;
+        height: 250%;
+        width: 125%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 1;
+    }
+    .aow
+    {  
+        background-color: rgb(0, 0, 0);
+        opacity:90%; 
+        padding-top:10%;
+        padding-left: 10%;
+        padding-right:10%;
+        margin-top: 75%;
+        margin-left: 0;
+        margin-right: 0;
+
+        height: 33%;
+        width: 80%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 1;
+    }
+    .bow
+    {
+        background-color: rgb(0, 0, 0);
+        opacity:90%;  
+        padding-top:10%;
+        padding-left: 10%;
+        padding-right:10%;
+        margin-top: 75%;
+        margin-left: 0;
+        margin-right: 0;
+
+        height: 33%;
+        width: 80%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 1;
+    }
+    .cow
+    {
+        background-color: rgb(0, 0, 0);
+        opacity:90%;  
+        padding-top:10%;
+        padding-left: 10%;
+        padding-right:10%;
+        margin-top: 75%;
+        margin-left: 0;
+        margin-right: 0;
+        height: 33%;
+        width: 80%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 1;
+    }
+
+.contactbox
+{
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    
+    border-radius: 10px;
+    margin-top: -30%;
+    margin-left: 25%;
+    width: 50%;
+    height: 25%;
+    background-color: white;
+}
+
+
+
+    .text
+{
+    font-size: 32px;
+    width: 35%;
+    margin-left: 5%;
+    margin-right: 65%;
+}
+.fullname
+{
+    width: 20%;
+    margin-left: 5%;
+    margin-right:65%;
+}
+.mkmdlyear
+{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 65%;
+}
+.dateos
+{
+    width: fit-content;
+    margin-left: 5%;
+    margin-right: 65%;
+}
+.phone
+{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 65%;
+    color: black;
+}
+.respond
+{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 65%;
+    color: black;
+}
+
+.visitreason
+{
+    resize: none;
+    margin-left: 5%;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+
+}
+.tboxbanner
+{
+    font-size: 32px;
+    margin-left: 5%;
+    
+}
+.submit
+{
+    margin-top: 1%;
+    font-size: 32pt;
+    width: 90%;
+    height: 20%;
+    background-color: rgb(36, 157, 218);
+    margin-left: 5%;
+    margin-right: 5%;
+}
