@@ -24,6 +24,7 @@
 }
 .GridLayoutBox 
 {    
+    
     margin-top: -4%;
     padding-top: 1%;
     display: grid;
@@ -95,7 +96,7 @@
 
 .container
 {   
-    padding-top: 10%;
+    padding-top: 5%;
     text-align: center;
 
     margin-top: 10%;
@@ -200,7 +201,7 @@
     
     .GridLayoutContainer 
     {
-    padding-top: 5%;
+    
     display: grid;
     grid-gap: 2%;
     grid-template-columns: 33% 33% 33%;
