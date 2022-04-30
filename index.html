@@ -4,11 +4,11 @@
 
 <head>
     <meta charset="UTF-8">
-     
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0,  
-     user-scalable=0' >
+    <meta name="viewport" content="width=device-width"/>
+    
     <title>Just Clean Auto Detailing</title>
-    <!--External JS-->
+    <!--<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0,  
+     user-scalable=0' >-->
     <script type="text/javascript" src="landing.js"></script>  
     
 <head>
@@ -17,8 +17,8 @@
     <h3 class="title">
         <div class="GridLayoutBox">
         <input type="button" class="homeBtn" Value="Ceramic Coating" onclick="openPage('ceramic.html')">
-        <input type="button" class="location"Value="White Haven, Pennsylvania" onclick="openNewPage('www.google.com/maps/place/White+Haven,+PA+18661')">
-        <input type="button" class="translucentBtn" Value="Helpful Tips"onclick="openPage('helpfulTips.html')">
+        <input type="button" class="location"Value="White Haven, PA" onclick="openNewPage('www.google.com/maps/place/White+Haven,+PA+18661')">
+        
     </div>
     </h3>
     
@@ -27,35 +27,35 @@
     
             <div class="container">
                 <form>
-                    <input type="button" class="j" Value= "Just Clean Auto Detailing" ><br><br>
+                    <div class="j"> Just Clean Auto Detailing </div><br><br>
                     <input type="button" class="menuA" Value="Gallery"><br><br>
                     <input type="button" class="menuB" Value="About us" onclick="openPage('about.html')"><br><br>
                     <input type="button" class="menuC" Value="Our Services"><br><br>
-                    <input type="button" class="menuD" Value="Work with us!"> <br><br>
+                    <input type="button" class="menuD" Value="HelpfulTips" onclick="openPage('helpfulTips.html')">> <br><br>
                 </form>
                 
             </div>
 
             <div class="GridLayoutContainer">
-                <div class="box a" role="img" ><div class="box ao" role="img" > <div class="box aow" role="img" >Our services are designed to reveal your vehicles true colors.</div></div></div>
-                <div class="box b" role="img" ><div class="box bo" role="img" > <div class="box bow" role="img" >We use high quality coatings that can be applied to all surfaces. Inside and Out. </div></div> </div>
-                <div class="box c" role="img" ><div class="box co" role="img" > <div class="box cow" role="img" >No matter the vehicle they all get the same amount of care. </div></div> </div>   
+                <div class="box a" role="img" ><div class="box ao" role="img" >Our services are designed to reveal your vehicles true colors. </div></div>
+                <div class="box b" role="img" ><div class="box bo" role="img" >We use high quality coatings that can be applied to all surfaces. </div> </div>
+                <div class="box c" role="img" ><div class="box co" role="img" >No matter the vehicle they all get the same amount of care. </div> </div>   
             </div>
 
-            <div class="contactbox">
+            <div class="contactbox" >
                 <form>
                         <label class="text">Full Name:</label><br>
                         <input type="text" class="fullname" id="fname"><br>
                         <label class="text">Make/Model/Year:</label><br>
                         <input type="text" class="mkmdlyear" id="vehicle"> <br>
-                        <label class="text">Preferred day? (subject to change)</label><br>
+                        <label class="text">Date Requested?</label><br>
                         <input type="date" class="dateos" id="dos">
                         <label class="text">Phone</label><br>
                         <input type="tel" class="phone" id="phone" placeholder="(xxx) xxx-xxxx"><br>
-                        <label class="text">Text, Call or Email? (2-3 day turn around)</label><br>
+                        <label class="text">Text, Call or Email? </label><br>
                         <input type="text" class="respond" id="respond" ><br>        
                         <label class="tboxbanner">Anything else? </label><br>
-                        <textarea class="visitreason" id="vreason" rows="4" cols="60" ></textarea>
+                        <textarea class="visitreason" id="vreason" rows="4" cols="26" ></textarea>
                         <input type="button" class="submit" Value="Submit" onclick="contact()">
                     <!--<textarea class="visitreason" id="emails" rows="4" cols="60"></textarea>-->   
                 </form>
