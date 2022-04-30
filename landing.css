@@ -42,9 +42,10 @@
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
     font-size: xx-large;
     border-radius: 10px; 
+    height: fit-content;
     width: fit-content; 
     background-repeat: no-repeat;
-    
+    max-width: 100%;
   
 }
 .location
@@ -52,28 +53,28 @@
     margin:auto; 
     background-color: transparent;
     border-color: transparent;
-    width: fit-content;
+    height: fit-content;
+    width: fit-content; 
     color: black;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
     font-size: xx-large;
     border-radius: 10px; 
-     
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    max-width: 100%;
+    
 }
 .translucentBtn
 {
     margin: auto;  
     background-color: transparent;
     border-color: transparent;
-    width: fit-content;
+    height: fit-content;
+    width: fit-content; 
     color: black;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
     font-size: xx-large;
     border-radius: 10px; 
-     
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    max-width: 75%;
+ 
 }
 .landingimage
 {
@@ -91,6 +92,7 @@
     margin-right: 15%;
     margin-bottom: 0;
     z-index: -1;
+    
 }
 
 .container
@@ -336,21 +338,26 @@
     width: 50%;
     height: 25%;
     background-color: white;
-    max-height: fit-content;
-    max-width: fit-content;
+    max-height: 100%;
+    max-width: 100%;
+   
 }
 
 
 
     .text
 {
-    font-size: 32px;
+    max-width: 100%;
+    max-height: 100%;
+    font-size: 75%;
     width: 35%;
     margin-left: 5%;
     margin-right: 65%;
 }
 .fullname
 {
+    min-width: fit-content;
+    min-height: fit-content;
     width: 20%;
     margin-left: 5%;
     margin-right:65%;
@@ -389,6 +396,8 @@
     border-color: black;
     border-width: 3px;
     border-radius: 5px;
+    max-width: fit-content;
+
 
 }
 .tboxbanner
