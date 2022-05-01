@@ -54,15 +54,14 @@
     background-color: transparent;
     border-color: transparent;
     min-width: auto;
-    min-height: auto;
+    min-height: 100%;
     height: fit-content;
     width: 100%;
     font-size: 60%;
     border-radius: 10px; 
     font-size: 75%;
+    border-width: 0;
     border-radius: 10px; 
- 
-
     color: black;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
 
@@ -211,11 +210,11 @@
     
     .GridLayoutContainer 
     {
-    
+    margin-top: 10%;
     display: grid;
     grid-gap: 1.5%;
     grid-template-columns: 32% 32% 32%;
-    grid-template-rows: 350px 350px 350px;
+    grid-template-rows:300px 100px 100px;
     }
     .a {
      
@@ -224,7 +223,7 @@
     min-width: auto;
     min-height: auto;
      height: 80%;
-     width: 80%;
+     width: 90%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 10px; 
@@ -236,7 +235,7 @@
         min-width: auto;
         min-height: auto;
          height: 80%;
-         width: 80%;
+         width: 90%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         border-radius: 10px; 
@@ -250,7 +249,7 @@
         min-width: auto;
         min-height: auto;
          height: 80%;
-         width: 80%;
+         width: 90%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         border-radius: 10px; 
@@ -258,7 +257,7 @@
     .ao
     {   
         margin-top: -10%;
-        padding-top: 100%;
+        padding-top: 90%;
      
         border-radius: 20px;
         border-width: 3px;
@@ -276,7 +275,7 @@
     .bo
     {
         margin-top: -10%;
-        padding-top: 100%;
+        padding-top: 90%;
         
         border-radius: 20px;
         border-width: 3px;
@@ -294,7 +293,7 @@
     .co
     {
         margin-top: -10%;
-        padding-top: 100%;
+        padding-top: 90%;
      
         border-radius: 20px;
         border-width: 3px;
@@ -309,80 +308,23 @@
         background-size: 100% 100%;
         z-index: 1;
     }
-    .aow
-    {  
-        font-size: 100%;
-        background-color: rgb(0, 0, 0);
-        opacity:90%; 
-        padding-top:0%;
-        padding-left: 10%;
-        padding-right:10%;
-        margin-top: 75%;
-        margin-left:  0%;
-        margin-right: 0;
-        text-align: center;
-        min-width: auto;
-        min-height: fit-content;
-        height: 40%;
-        width: 80%;
-        border-radius: 10px;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        z-index: 1;
-    }
-    .bow
-    {   
-        font-size: 100%;
-        background-color: rgb(0, 0, 0);
-        opacity:90%;  
-        padding-top:10%;
-        padding-left: 10%;
-        padding-right:10%;
-        margin-top: 75%;
-        margin-left: 0;
-        margin-right: 0;
-        min-width: auto;
-        min-height: auto;
-        height: fit-content;
-        width: 80%;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        z-index: 1;
-    }
-    .cow
-    {   font-size: 100%;
-        background-color: rgb(0, 0, 0);
-        opacity:90%;  
-        padding-top:10%;
-        padding-left: 10%;
-        padding-right:10%;
-        margin-top: 75%;
-        margin-left: 0;
-        margin-right: 0;
-        min-width: auto;
-        min-height: auto;
-        height: fit-content;
-        width: 80%;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        z-index: 1;
-    }
+ 
 
 .contactbox
 {
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
     
     border-radius: 10px;
-    margin-top: -30%;
+    margin-top: 25%;
     margin-left: 25%;
     min-width: auto;
     min-height: auto;
     width: 50%;
-    height: 18%;
+    height: fit-content;
     background-color: white;
     max-height: 100%;
     max-width: 100%;
-    padding-bottom: 2%;
+    padding-bottom: 15%;
 }
 
 
