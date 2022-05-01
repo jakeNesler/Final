@@ -198,6 +198,7 @@
     margin-right: 10%;
 }
 .box {
+    margin-top: 1%;
     text-align: center;
     border: 1px solid gray;
     color: rgb(255, 255, 255);
@@ -220,10 +221,10 @@
      
     background-image: url("Graphic/Blurple.jpg");
     margin: auto;
-    min-width: auto;
-    min-height: auto;
-     height: 80%;
-     width: 90%;
+        min-width: auto;
+        min-height: auto;
+         height: 80%;
+         width: 90%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 10px; 
@@ -256,14 +257,15 @@
     }
     .ao
     {   
-        margin-top: -10%;
-        padding-top: 90%;
+        margin: auto;
+        margin-top: -15% ;
+        padding-top: 50%;
      
         border-radius: 20px;
         border-width: 3px;
         border-color: white;
         background-color: transparent;
-        height: 100%;
+        height: 90%;
         width: 100%;
         font-size: 125%;
         min-width: fit-content;
@@ -274,14 +276,15 @@
     }
     .bo
     {
-        margin-top: -10%;
-        padding-top: 90%;
-        
+        margin: auto;
+        margin-top: -15% ;
+        padding-top: 50%;
+     
         border-radius: 20px;
         border-width: 3px;
         border-color: white;
         background-color: transparent;
-        height: 100%;
+        height: 90%;
         width: 100%;
         font-size: 125%;
         min-width: fit-content;
@@ -292,14 +295,15 @@
     }
     .co
     {
-        margin-top: -10%;
-        padding-top: 90%;
+        margin: auto;
+        margin-top: -15% ;
+        padding-top: 50%;
      
         border-radius: 20px;
         border-width: 3px;
         border-color: white;
         background-color: transparent;
-        height: 100%;
+        height: 90%;
         width: 100%;
         font-size: 125%;
         min-width: fit-content;
@@ -312,11 +316,11 @@
 
 .contactbox
 {
+  
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
-    
     border-radius: 10px;
     margin-top: 25%;
-    margin-left: 25%;
+    margin: auto  ;
     min-width: auto;
     min-height: auto;
     width: 50%;
