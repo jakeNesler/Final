@@ -63,10 +63,7 @@
     border-width: 0;
     border-radius: 10px; 
     color: black;
-    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
-
- 
-    
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf"); 
 }
  
 .landingimage

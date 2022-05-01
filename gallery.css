@@ -1,0 +1,219 @@
+
+.body
+{
+    background-color: black;
+    width: 100%;
+     
+     
+}
+.title
+{   
+    
+     
+    margin-top: 1%;
+    background-color: whitesmoke;
+    color: white;
+    width: 70%;
+    height: 5%;
+    padding-bottom: 1%;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+ 
+    padding-bottom: 1%;
+    border-radius: 10px;
+    margin: auto;
+}
+.GridLayoutBox 
+{    
+    
+    margin-top: -4%;
+    padding-top: 1%;
+    display: grid;
+    margin:auto;
+    
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 33% ;
+}
+.homeBtn
+{   
+    margin: auto;  
+ 
+    min-width: auto;
+    min-height: auto;
+    height: fit-content;
+    width: 100%;
+    font-size: 60%;
+    border-radius: 10px; 
+    background-color: black;
+    margin-left: 1%;
+    color: whitesmoke;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");  
+}
+.home
+{
+
+    margin: auto;  
+    min-width: auto;
+    min-height: auto;
+    height: fit-content;
+    width: fit-content ;
+    font-size: 250%;
+    border-radius: 10px; 
+    background-color: black;
+    color: whitesmoke;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");  
+}
+
+.location
+{
+    margin: auto;  
+    background-color: transparent;
+    border-color: transparent;
+    min-width: auto;
+    min-height: 100%;
+    height: fit-content;
+    width: 100%;
+    font-size: 60%;
+    border-radius: 10px; 
+    font-size: 75%;
+    border-width: 0;
+    border-radius: 10px; 
+    color: black;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf"); 
+}
+ 
+    
+    
+    .GridLayoutContainer 
+    {
+    font-size: 150%;
+    margin:auto;
+    width: 100%;
+    display: grid;
+    grid-gap: 55px;
+    grid-template-columns: 100% ;
+    grid-template-rows: 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px;
+    }
+    .a {
+    color: white;
+    margin:auto;
+    background-image: url(Graphic/Hyundai.jpg);
+    min-width: auto;
+    min-height: auto;
+    width: 400px;
+    height: 400px;    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     
+    
+    }
+    .aa
+    {
+        color: white;
+        margin:auto;
+    }
+    
+    
+    .b {
+        margin: auto;
+        background-image: url(graphic/Dodge.jpg);
+        min-width: auto;
+        min-height: auto;
+        width: 400px;
+        height: 400px;    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    
+    
+    
+    .c {
+        color: white;
+        margin:auto;
+        background-image: url(graphic/Jeep.jpg);
+        min-width: auto;
+        min-height: auto;
+        width: 400px;
+        height: 400px;    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    
+    
+    .d {
+        margin:auto;
+        background-image: url(graphic/Exocoating.jpg);
+        min-width: auto;
+        min-height: auto;
+        width: 400px;
+        height: 400px;    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    
+    
+    .e {
+        margin:auto;
+        background-image: url(graphic/Wetsanding.jpg);
+        min-width: auto;
+        min-height: auto;
+        width: 400px;
+        height: 400px;    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    
+    
+    .f {
+        margin:auto;
+        background-image: url(graphic/Blurple.jpg);
+        min-width: auto;
+        min-height: auto;
+        width: 400px;
+        height: 400px;    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    
+    
+    .g { 
+        margin:auto;
+        background-image: url(graphic/20181112_214423.jpg);
+        min-width: auto;
+        min-height: auto;
+        width: 400px;
+        height: 400px;    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    
+    }
+    
+    
+    
+    .h {
+        margin:auto;
+        background-image: url(graphic/20181105_213528.jpg);
+        min-width: auto;
+        min-height: auto;
+        width: 400px;
+        height: 400px;    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .i
+    {
+        margin:auto;
+        background-image: url(graphic/beads.jpg);
+        min-width: auto;
+        min-height: auto;
+        width: 400px;
+        height: 400px;    
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        
+    }
