@@ -52,6 +52,7 @@
 {
 
     margin: auto;  
+    margin-bottom: 10%;
     min-width: auto;
     min-height: auto;
     height: fit-content;
@@ -92,6 +93,7 @@
     grid-gap: 55px;
     grid-template-columns: 100% ;
     grid-template-rows: 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px 400px 55px;
+    margin-bottom: 3%;
     }
     .a {
     color: white;
