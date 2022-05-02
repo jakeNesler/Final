@@ -6,16 +6,20 @@
      
      
 }
-.title
+.titles
 {   
     
-     
-    margin-top: 1%;
+   
+    justify-content: center;
+    left:15%;
+    top: 1%;
+    margin-top: -20%;
+    margin-left: 15%;
     background-color: whitesmoke;
     color: white;
     width: 70%;
-    height: 5%;
-    padding-bottom: 1%;
+    height: 3%;
+    padding-bottom: 10px;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
  
     padding-bottom: 1%;
@@ -24,7 +28,7 @@
 }
 .GridLayoutBox 
 {    
-    
+   
     margin-top: -4%;
     padding-top: 1%;
     display: grid;
@@ -67,8 +71,8 @@
 }
  
 .landingimage
-{
-    
+{   
+    padding-top: 1%;
     background-image: url("Graphic/BeadDrip.jpg");
     width:4032px;
     height:2032px;
