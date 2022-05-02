@@ -63,6 +63,16 @@
     color: whitesmoke;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");  
 }
+.home:hover
+{
+ 
+    color:rgb(244, 244, 244);
+    background-color: rgb(36, 157, 218);
+    transition: 0.1s;
+    padding: 10px;
+    opacity: 100%;
+ 
+}
 
 .location
 {

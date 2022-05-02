@@ -52,6 +52,13 @@
     color: whitesmoke;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");  
 }
+.homeBtn:hover
+{   
+    color:rgb(244, 244, 244);
+    background-color: rgb(36, 157, 218);
+    transition: 0.1s;
+    padding: 10px;
+}
 .location
 {
     margin: auto;  
@@ -69,6 +76,14 @@
     color: black;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf"); 
 }
+.location:hover
+{   
+    color:rgb(244, 244, 244);
+    background-color: black;
+    transition: 0.1s;
+}
+
+
  
 .landingimage
 {   
@@ -121,11 +136,12 @@
     font-size: 300%;
     border-radius: 10px; 
 }
+
 .menuA
 {
     margin-top: 5%;
     background-color: black;
-    opacity: 50%;
+    opacity: 90%;
     min-width: auto;
     min-height: auto;
     width: 60%;
@@ -136,12 +152,20 @@
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
     font-size: 200%;
     border-radius: 10px; 
+}
+.menuA:hover
+{
+    color:rgb(244, 244, 244);
+    background-color: rgb(36, 157, 218);
+    transition: 0.1s;
+    padding: 10px;
+    opacity: 100%;
 }
 .menuB
 {
     margin-top: 5%;
     background-color: black;
-    opacity: 50%;
+    opacity: 90%;
     min-width: auto;
     min-height: auto;
     width: 60%;
@@ -152,12 +176,20 @@
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
     font-size: 200%;
     border-radius: 10px; 
+}
+.menuB:hover
+{
+    color:rgb(244, 244, 244);
+    background-color: rgb(36, 157, 218);
+    transition: 0.1s;
+    padding: 10px;
+    opacity: 100%;
 }
 .menuC
 {
     margin-top: 5%;
     background-color: black;
-    opacity: 50%;
+    opacity: 90%;
     min-width: auto;
     min-height: auto;
     width: 60%;
@@ -168,12 +200,20 @@
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
     font-size: 200%;
     border-radius: 10px; 
+}
+.menuC:hover
+{
+    color:rgb(244, 244, 244);
+    background-color: rgb(36, 157, 218);
+    transition: 0.1s;
+    padding: 10px;
+    opacity: 100%;
 }
 .menuD
 {
     margin-top: 5%;
     background-color: black;
-    opacity: 50%;
+    opacity: 90%;
     min-width: auto;
     min-height: auto;
     width: 60%;
@@ -185,11 +225,18 @@
     font-size: 200%;
     border-radius: 10px; 
 }
-
+.menuD:hover
+{
+    color:rgb(244, 244, 244);
+    background-color: rgb(36, 157, 218);
+    transition: 0.1s;
+    padding: 10px;
+    opacity: 100%;
+}
 .line
 {
     position:absolute;
-    margin-top: 10%;
+    margin-top: 90%;
     background-color: whitesmoke;
     color: white;
     width: 75%;
@@ -303,6 +350,7 @@
     background-size: 100% 100%;
     border-radius: 10px; 
     padding-bottom: 10px;
+    margin-bottom: 1%;
 }
 
 
@@ -392,4 +440,12 @@
     border-radius: 10px;
     margin-left: 5%;
     margin-right: 5%;
+}
+.submit:hover
+{
+    color:rgb(244, 244, 244);
+    background-color: rgb(36, 157, 218);
+    transition: 0.1s;
+    padding: 10px;
+    opacity: 100%;
 }
