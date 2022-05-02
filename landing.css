@@ -31,7 +31,7 @@
     margin:auto;
     
     grid-template-columns: 49% 49%;
-    grid-template-rows: 33% ;
+    grid-template-rows: 50% ;
 }
 .homeBtn
 {   
@@ -208,20 +208,23 @@
     
     .GridLayoutContainer 
     {
-    margin-top: 10%;
+     
     display: grid;
-    grid-gap: 1.5%;
-    grid-template-columns: 32% 32% 32%;
-    grid-template-rows:300px 100px 100px;
+     
+    grid-template-columns: 100%;
+    grid-template-rows: 500px 500px 500px;
     }
     .a {
      
     background-image: url("Graphic/Blurple.jpg");
     margin: auto;
-        min-width: auto;
-        min-height: auto;
-         height: 80%;
-         width: 90%;
+    font-size: 200%;
+    min-width: auto;
+    min-height:auto;
+    height: 500px;
+    width: 500px;
+    max-height: 80%;
+    max-width: 80%;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     border-radius: 10px; 
@@ -230,10 +233,13 @@
     { 
         background-image: url("Graphic/Wheels.jpg");
         margin: auto;
+        font-size: 200%;
         min-width: auto;
-        min-height: auto;
-         height: 80%;
-         width: 90%;
+        min-height:auto;
+        height: 500px;
+        width: 500px;
+        max-height: 80%;
+        max-width: 80%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         border-radius: 10px; 
@@ -244,74 +250,19 @@
         margin-left: 20%;
         background-image: url("Graphic/Restoredshine.jpg");
         margin: auto;
+        font-size: 200%;
         min-width: auto;
-        min-height: auto;
-         height: 80%;
-         width: 90%;
+        min-height:auto;
+        height: 500px;
+        width: 500px;
+        max-height: 80%;
+        max-width: 80%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
         border-radius: 10px; 
     }
-    .ao
-    {   
-        margin: auto;
-        margin-top: -15% ;
-        padding-top: 50%;
      
-        border-radius: 20px;
-        border-width: 3px;
-        border-color: white;
-        background-color: transparent;
-        height: 90%;
-        width: 100%;
-        font-size: 125%;
-        min-width: fit-content;
-        min-height: auto;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        z-index: 1;
-    }
-    .bo
-    {
-        margin: auto;
-        margin-top: -15% ;
-        padding-top: 50%;
-     
-        border-radius: 20px;
-        border-width: 3px;
-        border-color: white;
-        background-color: transparent;
-        height: 90%;
-        width: 100%;
-        font-size: 125%;
-        min-width: fit-content;
-        min-height: auto;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        z-index: 1;
-    }
-    .co
-    {
-        margin: auto;
-        margin-top: -15% ;
-        padding-top: 50%;
-     
-        border-radius: 20px;
-        border-width: 3px;
-        border-color: white;
-        background-color: transparent;
-        height: 90%;
-        width: 100%;
-        font-size: 125%;
-        min-width: fit-content;
-        min-height: auto;
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        z-index: 1;
-    }
- 
-
-.contactbox
+.contactboxA
 {
   
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
@@ -327,7 +278,23 @@
     max-width: 100%;
     padding-bottom: 15%;
 }
-
+ 
+.contactbox
+{
+    background-color: aliceblue;
+    margin: auto;
+    font-size: 200%;
+    min-width: auto;
+    min-height:auto;
+    height: fit-content;
+    width: 500px;
+    max-height: 80%;
+    max-width: 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 10px; 
+    padding-bottom: 10px;
+}
 
 
     .text
