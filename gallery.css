@@ -98,7 +98,7 @@
     .a {
     color: white;
     margin:auto;
-    background-image: url(Graphic/Hyundai.jpg);
+    background-image: url(Graphic/Hyundai.webp);
     min-width: auto;
     min-height: auto;
     width: 400px;
@@ -117,7 +117,7 @@
     
     .b {
         margin: auto;
-        background-image: url(Graphic/Dodge.jpg);
+        background-image: url(Graphic/Dodge.webp);
         min-width: auto;
         min-height: auto;
         width: 400px;
@@ -132,7 +132,7 @@
     .c {
         color: white;
         margin:auto;
-        background-image: url(Graphic/Jeep.jpg);
+        background-image: url(Graphic/Jeep.webp);
         min-width: auto;
         min-height: auto;
         width: 400px;
@@ -145,7 +145,7 @@
     
     .d {
         margin:auto;
-        background-image: url(Graphic/Exocoating.jpg);
+        background-image: url(Graphic/Exocoating.webp);
         min-width: auto;
         min-height: auto;
         width: 400px;
@@ -158,7 +158,7 @@
     
     .e {
         margin:auto;
-        background-image: url(Graphic/Wetsanding.jpg);
+        background-image: url(Graphic/Wetsanding.webp);
         min-width: auto;
         min-height: auto;
         width: 400px;
@@ -171,7 +171,7 @@
     
     .f {
         margin:auto;
-        background-image: url(Graphic/Blurple.jpg);
+        background-image: url(Graphic/Blurple.webp);
         min-width: auto;
         min-height: auto;
         width: 400px;
@@ -210,7 +210,7 @@
     .i
     {
         margin:auto;
-        background-image: url(Graphic/beads.jpg);
+        background-image: url(Graphic/beads.webp);
         min-width: auto;
         min-height: auto;
         width: 400px;

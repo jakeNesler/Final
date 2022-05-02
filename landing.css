@@ -282,7 +282,12 @@
     max-width: 100%;
     padding-bottom: 15%;
 }
- 
+
+.contactheader
+{   text-align: center;
+    font-size: 100%;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+}
 .contactbox
 {
     background-color: aliceblue;
