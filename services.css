@@ -50,9 +50,11 @@
     background-color: #7f7f7f;
     color: white;
   }
-  #footer
+  .estimates
   {
-    margin-top: 80%;
+    text-align: center;
+    margin-top: 50px;
     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    font-size: 180%;
     color: white;
   }
