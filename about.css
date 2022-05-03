@@ -20,3 +20,17 @@
     padding-top: 1%;
     padding-bottom: 1%;
 }
+.a {
+    color: white;
+    margin:auto;
+    background-image: url(Graphic/Wheels.webp);
+    min-width: auto;
+    min-height: auto;
+    width: 400px;
+    height: 400px;    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-color: transparent;
+     
+    
+    }
