@@ -106,13 +106,11 @@
 
 .container
 {   
-    padding-top: 5%;
     text-align: center;
-
-    margin-top: 10%;
+    margin-top:15%;
     margin: auto;
     width: 100%;
-    height: 20%;
+    height: 100%;
      
 }
 
@@ -233,18 +231,7 @@
     padding: 10px;
     opacity: 100%;
 }
-.line
-{
-    position:absolute;
-    margin-top: 90%;
-    background-color: whitesmoke;
-    color: white;
-    width: 75%;
-    height: 1px;
-    
-    margin-left: 10%;
-    margin-right: 10%;
-}
+
 .box {
     margin-top: 1%;
     text-align: center;
@@ -259,11 +246,10 @@
     
     .GridLayoutContainer 
     {
-     
+    margin-top: 100px;
     display: grid;
-     
     grid-template-columns: 100%;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-rows: fit-content 500px 500px 500px;
     }
     .a {
      
