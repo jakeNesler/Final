@@ -1,0 +1,58 @@
+.GridLayout
+{
+    background: orange;
+    margin: 10%; 
+    padding-top: 1%;
+    display: grid;
+    margin:auto;
+    width: 70%;
+    grid-template-columns: 100%;
+     
+    grid-template-rows: 100px 150px;
+}
+
+.service1
+{   
+    margin: left;
+    background-color: transparent;
+    font-size: 200%;
+    min-width: auto;
+    min-height: auto;
+    max-width: 90%;
+    max-height: 100%;
+    border-width: 2px;
+    border-style: solid;
+    padding:3px ;
+}
+#options {
+    margin: auto;
+
+     font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    border-collapse: collapse;
+    min-width: auto;
+    min-height: auto;
+    width: 60%;
+  }
+  
+  #options td, #options th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #options tr {background-color:rgb(255, 255, 255);}
+  
+  #options tr:hover {background-color: rgb(132, 132, 132);}
+  
+  #options th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #7f7f7f;
+    color: white;
+  }
+  #footer
+  {
+    margin-top: 80%;
+    font-family: url("Fonts/Poppins/Poppins-Medium.ttf");
+    color: white;
+  }
